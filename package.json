@@ -1,30 +1,29 @@
 {
-  "name": "express-bluebell",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build-css": "node-sass --include-path --compress scss src/sass/main.scss -o public/css && npm run dev",
-    "watch-css": "nodemon -e --watch view --watch src -x \"npm run build-css\"",
-    "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/paulImperial/express-bluebell.git"
-  },
-  "keywords": [],
-  "author": "Paul Mason",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paulImperial/express-bluebell/issues"
-  },
-  "homepage": "https://github.com/paulImperial/express-bluebell#readme",
-  "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "node-sass": "^4.9.2",
-    "nodemon": "^1.18.3"
-  }
+	"name": "express-bluebell",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"build-css": "node-sass --include-path --compress scss src/sass/main.scss -o public/css && npm run dev",
+		"watch-css": "nodemon -e --watch view --watch src -x \"npm run build-css\"",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/paulImperial/express-bluebell.git"
+	},
+	"keywords": [],
+	"author": "Paul Mason",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/paulImperial/express-bluebell/issues"
+	},
+	"homepage": "https://github.com/paulImperial/express-bluebell#readme",
+	"dependencies": {
+		"express": "^4.16.3",
+		"express-handlebars": "^3.0.0",
+		"node-sass": "^4.9.2",
+		"nodemon": "^1.18.3"
+	}
 }
