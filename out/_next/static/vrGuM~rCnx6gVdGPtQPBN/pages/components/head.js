@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{Xzxw:function(n,w,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/head",function(){var n=o("icTI");return{page:n.default||n}}])}},[["Xzxw",1,0]]]);

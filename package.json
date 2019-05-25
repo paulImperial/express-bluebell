@@ -4,10 +4,12 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js",
+		"start": "nodemon index",
 		"build-css": "node-sass --include-path --compress scss src/sass/main.scss -o public/css && npm run dev",
 		"watch-css": "nodemon -e --watch view --watch src -x \"npm run build-css\"",
-		"dev": "nodemon index.js"
+		"next": "next && npm run start",
+		"build": "next build && next export",
+		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
@@ -21,9 +23,25 @@
 	},
 	"homepage": "https://github.com/paulImperial/express-bluebell#readme",
 	"dependencies": {
+		"babel-preset-react": "^6.24.1",
 		"express": "^4.16.3",
 		"express-handlebars": "^3.0.0",
+		"jest-cli": "^24.7.1",
+		"next": "^8.0.1",
+		"next-server": "^8.0.1",
 		"node-sass": "^4.9.2",
-		"nodemon": "^1.18.3"
+		"nodemon": "^1.18.3",
+		"react": "^16.8.2",
+		"react-dom": "^16.8.2"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.2.2",
+		"@babel/node": "^7.2.2",
+		"@babel/preset-env": "^7.4.2",
+		"@babel/preset-es2015": "^7.0.0-beta.53",
+		"@babel/preset-react": "^7.0.0",
+		"babel-cli": "x",
+		"babel-preset-env": "^1.7.0"
 	}
 }
