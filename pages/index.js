@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Link from 'next/link'
-import Layout from './components/layout'
+import Layout from './components/Layout'
 
-const Index = (props) => {
+const Index = props => {
 	return (
 		<Layout>
 			<div className="hero text-center">
