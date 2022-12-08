@@ -21,7 +21,7 @@
 	},
 	"homepage": "https://github.com/paulImperial/express-bluebell#readme",
 	"dependencies": {
-		"express": "^4.16.3",
+		"express": "^4.17.3",
 		"express-handlebars": "^3.0.0",
 		"node-sass": "^4.9.2",
 		"nodemon": "^1.18.3"
